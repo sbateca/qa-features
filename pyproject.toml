@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qa"
+version = "1.0.0"
+description = ""
+authors = ["sbateca <sergio.bateca@ioet.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+behave = "^1.2.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
